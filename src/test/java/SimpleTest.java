@@ -8,7 +8,7 @@ public class SimpleTest {
     @Test
     public void TestAddition(){
         Calculator calc = new Calculator();
-        int num = calc.Addition(5, 5);
+        int num = calc.Addition(15, 5);
         int result = 10;
         assertEquals(result, num);
     }
